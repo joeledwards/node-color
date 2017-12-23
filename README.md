@@ -24,7 +24,7 @@ console.log(orange('naraja'))
 console.log(yellow('amarillo'))
 console.log(green('verde'))
 console.log(blue('azul'))
-console.log(purple('púrpura))
+console.log(purple('púrpura'))
 console.log(gray('gris'))
 ```
 
