@@ -1,0 +1,22 @@
+{
+  "name": "@buzuli/color",
+  "version": "1.0.0",
+  "description": "Preferred colors for @buzuli's projects",
+  "main": "lib/color.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeledwards/node-color.git"
+  },
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeledwards/node-color/issues"
+  },
+  "homepage": "https://github.com/joeledwards/node-color#readme",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
+}
