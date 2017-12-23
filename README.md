@@ -38,3 +38,16 @@ console.log(hex('abc')('Surprise me.'))
 
 ```
 
+One more thing:  Emoji 🐿
+
+```javascript
+const {
+  green, yellow, orange, gray, emoji
+} = require('@buzuli/color')
+
+console.log(green(emoji.inject(':umbrella:  spring :tulip:')))
+console.log(yellow(emoji.inject(':palm_tree:  summer :sunny:')))
+console.log(orange(emoji.inject(':jack_o_lantern:  fall :fallen_leaf:')))
+console.log(gray(emoji.inject(':snowman:  winter :snowflake:')))
+```
+
