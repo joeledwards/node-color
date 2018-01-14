@@ -19,6 +19,6 @@ console.log(hex('abc')('Surprise me.'))
 
 console.log(green(emoji.inject(':umbrella:  spring :tulip:')))
 console.log(yellow(emoji.inject(':palm_tree:  summer :sunny:')))
-console.log(orange(emoji.inject(':jack_o_lantern:  fall :fallen_leaf:')))
+console.log(orange(emoji.inject(':jack_o_lantern:   fall  :fallen_leaf:')))
 console.log(gray(emoji.inject(':snowman:  winter :snowflake:')))
 
