@@ -1,0 +1,4 @@
+- [ ] automated unique color pool
+  - pool = color.pool()
+  - pool(textA)
+  - pool(textB)
