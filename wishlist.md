@@ -1,4 +1,9 @@
-- [ ] automated unique color pool
-  - pool = color.pool()
-  - pool(textA)
-  - pool(textB)
+- [ ] unique color pool
+  - colorPool = color.pool()
+  - colorPool(textA)
+  - colorPool(textB)
+- [ ] unique emoji pool
+  - emojiPool = color.emoji.pool()
+  - emojiPool(textA)
+  - emojiPool(textB)
+
