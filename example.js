@@ -3,7 +3,7 @@ const {
   red, yellow, blue,
   orange, green, purple,
   gray, hex, key,
-  emoji
+  emoji, pool
 } = require('./lib/color')
 
 const black = hex('000')
@@ -37,3 +37,24 @@ console.log(gray(emoji.inject(':snowman:  winter :snowflake:')))
 
 console.log(emoji.key('x'))
 console.log(emoji.key('white_check_mark'))
+
+const colorPool = pool()
+console.log(colorPool('pooled-a'))
+console.log(colorPool('pooled-b'))
+console.log(colorPool('pooled-c'))
+console.log(colorPool('pooled-d'))
+console.log(colorPool('pooled-e'))
+console.log(colorPool('pooled-f'))
+console.log(colorPool('pooled-g'))
+console.log(colorPool('pooled-h'))
+console.log(colorPool('pooled-a'))
+console.log(colorPool('pooled-b'))
+console.log(colorPool('pooled-c'))
+
+const emojiPool = emoji.pool()
+console.log(emojiPool('pooled-1'))
+console.log(emojiPool('pooled-2'))
+console.log(emojiPool('pooled-3'))
+console.log(emojiPool('pooled-1'))
+console.log(emojiPool('pooled-2'))
+console.log(emojiPool('pooled-3'))
