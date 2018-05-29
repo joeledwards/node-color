@@ -37,4 +37,3 @@ console.log(gray(emoji.inject(':snowman:  winter :snowflake:')))
 
 console.log(emoji.key('x'))
 console.log(emoji.key('white_check_mark'))
-
