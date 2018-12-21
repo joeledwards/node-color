@@ -2,11 +2,10 @@
 const {
   red, yellow, blue,
   orange, green, purple,
-  gray, hex, key,
+  gray, black, white,
+  hex, key,
   emoji, pool
 } = require('./lib/color')
-
-const black = hex('000')
 
 console.log(red('rojo'))
 console.log(orange('naraja'))
@@ -23,6 +22,8 @@ console.log(green.bg(black('verde')))
 console.log(blue.bg(black('azul')))
 console.log(purple.bg(black('púrpura')))
 console.log(gray.bg(black('gris')))
+console.log(white.bg(black('blanco')))
+console.log(black.bg(white('negro')))
 
 console.log(key('orange').bold('My favorite color'))
 console.log(hex('abc').bold('Surprise me.'))
