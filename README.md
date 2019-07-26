@@ -72,3 +72,8 @@ You can customize individual colors using the following environment variables; u
 - `BUZULI_COLOR_GREY` : sets `grey`/`gray`
 - `BUZULI_COLOR_GRAY` : sets `grey`/`gray`
 
+You can set the color level [level](https://www.npmjs.com/package/chalk#chalklevel)
+- 0 : off (disabled)
+- 1 : 16 colors (basic)
+- 2 : 256 colors
+- 3 : 16 million (Truecolor)
