@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/joeledwards/node-color#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "node-emoji": "^1.10.0"
+    "chalk": "^4.1.2",
+    "node-emoji": "^1.11.0"
   },
   "devDependencies": {
-    "standard": "^13.1.0",
-    "tap": "^14.4.3"
+    "standard": "^16.0.3",
+    "tap": "^15.0.9"
   }
 }
