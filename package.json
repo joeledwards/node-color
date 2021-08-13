@@ -1,6 +1,6 @@
 {
   "name": "@buzuli/color",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Preferred colors for @buzuli's projects",
   "main": "lib/color.js",
   "scripts": {
