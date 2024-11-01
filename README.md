@@ -56,8 +56,8 @@ console.log(gray(emoji.inject(':snowman:  winter :snowflake:')))
 The default color scheme attempts to be the best balance for use on either a light or dark background.
 There are two environment variables for optimizing the colors for the terminal background (light vs. dark).
 
-- `BUZULI_COLOR_LIGHT` : optimized for light backgrounds (enabled,on,true,1,yes all work)
-- `BUZULI_COLOR_DARK` : optimized for dark backgrounds (enabled,on,true,1,yes all work)
+- `BUZULI_COLOR_LIGHT` : optimized for light backgrounds (1,enabled,on,t,true,yes all work)
+- `BUZULI_COLOR_DARK` : optimized for dark backgrounds (1,enabled,on,t,true,yes all work)
 
 If both `_LIGHT` and `_DARK` are specified, `_LIGHT` wins 🔦.
 
@@ -77,3 +77,7 @@ You can set the color [level](https://www.npmjs.com/package/chalk#chalklevel) vi
 - 1 : 16 colors (basic)
 - 2 : 256 colors
 - 3 : 16 million (Truecolor)
+
+Normally no color will be applied if it is determined that stdout is not a TTY, even if `BUZULI_COLOR_LEVEL` is set.
+However, you can override this via `BUZULI_COLOR_IGNORE_TTY` (1,enabled,on,t,true,yes all work).
+
